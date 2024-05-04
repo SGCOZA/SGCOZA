@@ -82,17 +82,56 @@ font-weight: light !important;
   
 /* Header/logo Title */
 .header {
-  padding: 0;
-  text-align: center;
+  padding:;
+  text-align:;
   background:;
-  color: #fff;
+  color:;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size:;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #27628D;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 60px;
+  vertical-align: middle;
+}
+.sidenav a {
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  transition: 1.5s;
+  letter-spacing: 1px;
 }
 
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 5px;
+  font-weight: 300 !important;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;vertical-align: middle;}
+  .sidenav a {font-size: 18px;}
+	}
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
