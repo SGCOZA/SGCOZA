@@ -83,7 +83,15 @@ background-image: url('');
   background:;
   color:;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.sticky + .content {
+  padding-top: 102px;
+}
 /* Increase the font size of the heading */
 .header h1 {
   font-size:;
@@ -315,8 +323,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<div><img src="IMG_20240504_122721.jpg" width="100%" height="auto" style="border-top: 1px solid #f5f5f5;border-bottom: 1px solid #f5f5f5;"></div>
+<div class="content"><div><img src="IMG_20240504_122721.jpg" width="100%" height="auto" style="border-top: 1px solid #f5f5f5;border-bottom: 1px solid #f5f5f5;"></div>
 <h1></h1>
 <footer><div style="margin-left:15px;"><a href="https://selectgifts.co.za/"><i class="fa fa-instagram" style="font-size:;color:#003153;"></i></a></div>
-<div><p style="padding-bottom:750px;">© 2024 Select Gifts</p></div></footer>
+<div><p style="padding-bottom:750px;">© 2024 Select Gifts</p></div></div></footer>
 </body></html>
