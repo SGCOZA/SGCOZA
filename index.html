@@ -326,5 +326,19 @@ function closeNav() {
 <div class="content"><div><img src="IMG_20240504_122721.jpg" width="100%" height="auto" style="border-top: 1px solid #f5f5f5;border-bottom: 1px solid #f5f5f5;"></div>
 <h1></h1>
 <footer><div style="margin-left:15px;"><a href="https://selectgifts.co.za/"><i class="fa fa-instagram" style="font-size:;color:#003153;"></i></a></div>
-<div><p style="padding-bottom:750px;">© 2024 Select Gifts</p></div></div></footer>
+<div><p style="padding-bottom:750px;">© 2024 Select Gifts</p></div></div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");} else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</footer>
 </body></html>
