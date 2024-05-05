@@ -265,7 +265,13 @@ background-color: transparent;
   margin-bottom:;
   margin:;
 }
-	
+.unselectable span {
+ -moz-user-select: text;
+ -khtml-user-select: text;
+ -webkit-user-select: text;
+ -ms-user-select: text;
+ user-select: text;
+}
 @keyframes typing {
     from { 
         width: 0% 
